@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Bienvenue</title>
-  <meta name="description" content="I am a PhD student at CentraleSupélec (Rennes) since october 2015.  My thesis title is "Dedicated coprocessor for dynamic information flow control (DIFC)".  My thesis supervisors are Pascal COTRET and Christophe MOY. The thesis is part of Hardblare project financed by COMINLABS and Brittany region.
-">
+  <title>My First post - Coresight</title>
+  <meta name="description" content="In this post, I just wanted to talk about who I am and what I am doing currently.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://yourdomain.com/">
+  <link rel="canonical" href="http://yourdomain.com/2015/12/18/ptm-traces.html">
   <link rel="alternate" type="application/rss+xml" title="Bienvenue" href="http://yourdomain.com/feed.xml">
 </head>
 
@@ -55,41 +54,37 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">My First post - Coresight</h1>
+    <p class="post-meta"><time datetime="2015-12-18T00:00:00+01:00" itemprop="datePublished">Dec 18, 2015</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Dec 18, 2015</span>
+  <div class="post-content" itemprop="articleBody">
+    <p>In this post, I just wanted to talk about who I am and what I am doing currently.</p>
 
-        <h2>
-          <a class="post-link" href="/2015/12/18/ptm-traces.html">My First post - Coresight</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 14, 2015</span>
+<p>My name is Muhammad Abdul WAHAB and I am currently doing a PhD at CentraleSupélec (Rennes) financed by CominLabs and Brittany region. I am not going to talk about my PhD subject in today’s post. I am planning to do a whole blog post on my PhD subject.</p>
 
-        <h2>
-          <a class="post-link" href="/phd/2015/12/14/PhD%20subject.html">PhD subject</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 13, 2015</span>
+<p>The subject of today’s blog concerns coresight components. What are these components? Why do we need them ? What are the problems that can occur using these components ? What are the limits of these components ?</p>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2015/12/13/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-  </ul>
+<p>In order to debug the software, we usually uses software but we can also use hardware. For example, <a href="ARM">http://www.arm.com/index.php</a> offers the possibility to use the Coresight components (CS) in order to debug the processor(s). Other manufacturers of processors offers hardware solution for debug. For example, Intel offers</p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<p>Coresight components <a href="ARM Coresight Components">http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0314h/index.html</a> offers a multi-core debug and trace solution with high bandwidth for systems.</p>
 
-</div>
+<p>They are further divided into three types :</p>
+
+<p>Coresight Sources : PTM (Program Trace Macrocell), ETM (Embedded Trace Macrocell), ITM (Instrumentation Trace Macrocell) (collect trace from the CPU)</p>
+
+<p>Coresight Links : FUNNEL, REPLICATOR (provides a link between the CS sources and CS sinks)</p>
+
+<p>Coresight Sinks : ETB (Embedded Trace Buffer), TPIU (Trace Port Interface Unit)</p>
+
+<p>The following list is not exhaustive.</p>
+
+  </div>
+
+</article>
 
       </div>
     </div>

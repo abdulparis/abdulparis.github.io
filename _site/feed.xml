@@ -6,9 +6,38 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Dec 2015 15:36:19 +0100</pubDate>
-    <lastBuildDate>Fri, 18 Dec 2015 15:36:19 +0100</lastBuildDate>
+    <pubDate>Fri, 18 Dec 2015 17:24:30 +0100</pubDate>
+    <lastBuildDate>Fri, 18 Dec 2015 17:24:30 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>My First post - Coresight</title>
+        <description>&lt;p&gt;In this post, I just wanted to talk about who I am and what I am doing currently.&lt;/p&gt;
+
+&lt;p&gt;My name is Muhammad Abdul WAHAB and I am currently doing a PhD at CentraleSupélec (Rennes) financed by CominLabs and Brittany region. I am not going to talk about my PhD subject in today’s post. I am planning to do a whole blog post on my PhD subject.&lt;/p&gt;
+
+&lt;p&gt;The subject of today’s blog concerns coresight components. What are these components? Why do we need them ? What are the problems that can occur using these components ? What are the limits of these components ?&lt;/p&gt;
+
+&lt;p&gt;In order to debug the software, we usually uses software but we can also use hardware. For example, &lt;a href=&quot;ARM&quot;&gt;http://www.arm.com/index.php&lt;/a&gt; offers the possibility to use the Coresight components (CS) in order to debug the processor(s). Other manufacturers of processors offers hardware solution for debug. For example, Intel offers&lt;/p&gt;
+
+&lt;p&gt;Coresight components &lt;a href=&quot;ARM Coresight Components&quot;&gt;http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0314h/index.html&lt;/a&gt; offers a multi-core debug and trace solution with high bandwidth for systems.&lt;/p&gt;
+
+&lt;p&gt;They are further divided into three types :&lt;/p&gt;
+
+&lt;p&gt;Coresight Sources : PTM (Program Trace Macrocell), ETM (Embedded Trace Macrocell), ITM (Instrumentation Trace Macrocell) (collect trace from the CPU)&lt;/p&gt;
+
+&lt;p&gt;Coresight Links : FUNNEL, REPLICATOR (provides a link between the CS sources and CS sinks)&lt;/p&gt;
+
+&lt;p&gt;Coresight Sinks : ETB (Embedded Trace Buffer), TPIU (Trace Port Interface Unit)&lt;/p&gt;
+
+&lt;p&gt;The following list is not exhaustive.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 18 Dec 2015 00:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/2015/12/18/ptm-traces.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/12/18/ptm-traces.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>PhD subject</title>
