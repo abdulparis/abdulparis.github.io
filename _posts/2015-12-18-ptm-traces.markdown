@@ -8,14 +8,14 @@ My name is **Muhammad Abdul WAHAB** and I am currently doing a *PhD* at**__Centr
 
 The subject of today's blog concerns coresight components. What are these components? Why do we need them ? What are the problems that can occur using these components ? What are the limits of these components ?
 
-In order to debug the software, we usually uses software but we can also use hardware. For example, [http://www.arm.com/index.php](ARM) offers the possibility to use the Coresight components (CS) in order to debug the processor(s). Other manufacturers of processors offers hardware solution for debug. For example, Intel offers 
+In order to debug the software, we usually uses software but we can also use hardware. For example, [ARM](http://www.arm.com/index.php)) offers the possibility to use the Coresight components (CS) in order to debug the processor(s). Other manufacturers of processors offers hardware solution for debug. For example, Intel offers 
 
-Coresight components [http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0314h/index.html](ARM Coresight Components) offers a multi-core debug and trace solution with high bandwidth for systems. 
+Coresight components [ARM Coresight Components](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0314h/index.html) offers a multi-core debug and trace solution with high bandwidth for systems. 
 
 They are further divided into three types : Sources, Links and Sinks.
 
 Types of Coresight components | Examples | Function 
----|---|---
+--- | --- | ---
 Sources | PTM (Program Trace Macrocell), ETM (Embedded Trace Macrocell), ITM (Instrumentation Trace Macrocell) | collect trace from the CPU
 Links | FUNNEL, REPLICATOR | provides a link between the CS sources and CS sinks
 Sinks | ETB (Embedded Trace Buffer), TPIU (Trace Port Interface Unit) | store or export the trace data
