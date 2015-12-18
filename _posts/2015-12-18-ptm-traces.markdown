@@ -8,16 +8,23 @@ My name is **Muhammad Abdul WAHAB** and I am currently doing a *PhD* at **_Centr
 
 The subject of today's blog concerns coresight components. What are these components? Why do we need them ? What are the problems that can occur using these components ? What are the limits of these components ?
 
-In order to debug the software, we usually uses software but we can also use hardware. For example, [ARM](http://www.arm.com/index.php)) offers the possibility to use the Coresight components (CS) in order to debug the processor(s). Other manufacturers of processors offers hardware solution for debug. For example, Intel offers 
+In order to debug the software, we usually uses software but we can also use hardware. The main reason to use HW is that it offers very low overhead compared to SW solutions. 
+For example, [ARM](http://www.arm.com/index.php) offers the possibility to use the Coresight components (CS) in order to debug the processor(s). 
+Other manufacturers of processors offers hardware solution for debug. For example, Intel offers Intel Branch Trace Store (BTS) and Processor Trace (PT) while freescale offers Performance monitor. 
 
-Coresight components [ARM Coresight Components](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0314h/index.html) offers a multi-core debug and trace solution with high bandwidth for systems. 
+[ARM Coresight Components](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0314h/index.html) offers a multi-core debug and trace solution with high bandwidth for systems. 
 
 They are further divided into three types : Sources, Links and Sinks.
 
-Types of Coresight components | Examples | Function 
---- | --- | --- 
-Sources | PTM (Program Trace Macrocell), ETM (Embedded Trace Macrocell), ITM (Instrumentation Trace Macrocell) | collect trace from the CPU 
-Links | FUNNEL, REPLICATOR | provides a link between the CS sources and CS sinks 
-Sinks | ETB (Embedded Trace Buffer), TPIU (Trace Port Interface Unit) | store or export the trace data 
+ Types of Coresight components | Examples | Function 
+ --- | --- | --- 
+ Sources | PTM (Program Trace Macrocell), ETM (Embedded Trace Macrocell), ITM (Instrumentation Trace Macrocell) | collect trace from the CPU 
+ Links | FUNNEL, REPLICATOR | provides a link between the CS sources and CS sinks 
+ Sinks | ETB (Embedded Trace Buffer), TPIU (Trace Port Interface Unit) | store or export the trace data 
 
-The following list is not exhaustive. 
+This is an incomplete table but it lists the most important coresight components. 
+ 
+
+
+
+
