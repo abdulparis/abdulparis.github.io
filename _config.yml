@@ -1,0 +1,23 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Bienvenue
+email: muhammadabdul.wahab@centralesupelec.fr
+description: > # this means to ignore newlines until "baseurl:"
+  I am a PhD student at CentraleSupélec (Rennes) since october 2015. 
+  My thesis title is "Dedicated coprocessor for dynamic information flow control (DIFC)". 
+  My thesis supervisors are Pascal COTRET and Christophe MOY.
+  The thesis is part of Hardblare project financed by COMINLABS and Brittany region.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+#My thesis supervisors are [Pascal COTRET](https://pascalcotret.wordpress.com) and [Christophe MOY](http://www.rennes.supelec.fr/ren/perso/cmoy/).
+#twitter_username: jekyllrb
+#github_username:  jekyll
+
+# Build settings
+markdown: kramdown
